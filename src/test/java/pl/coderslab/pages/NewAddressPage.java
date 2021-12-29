@@ -36,8 +36,11 @@ public class NewAddressPage {
         cityField.sendKeys(city);
         countrySelect.selectByVisibleText(country);
         phoneField.sendKeys(phone);
-        saveButton.click();
 
+    }
+
+    public void Save(){
+        saveButton.click();
     }
 
 }

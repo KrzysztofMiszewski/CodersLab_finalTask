@@ -18,4 +18,16 @@ public class AddressesPage {
         this.deleteButton = driver.findElement(By.cssSelector(".address-footer > a:nth-child(2) > span:nth-child(2)"));
 
     }
+
+    public String GetAliasText(){
+        return aliasText.getText();
+    }
+
+    public String GetAddressBody(){
+        return addressBody.getText();
+    }
+
+    public void DeleteAddress(){
+        deleteButton.click();
+    }
 }
