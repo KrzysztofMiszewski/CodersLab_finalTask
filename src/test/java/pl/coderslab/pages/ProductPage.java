@@ -9,12 +9,12 @@ import java.math.BigDecimal;
 
 public class ProductPage {
 
-    Select sizeSelect;
-    WebElement quantityField;
-    WebElement oldPrice;
-    WebElement newPrice;
-    WebElement addToCart;
-    WebElement proceedToCheckout;
+    private final Select sizeSelect;
+    private final WebElement quantityField;
+    private final WebElement oldPrice;
+    private final WebElement newPrice;
+    private final WebElement addToCart;
+    private WebElement proceedToCheckout;
 
     public ProductPage(WebDriver driver) {
         this.sizeSelect = new Select(driver.findElement(By.cssSelector("#group_1")));

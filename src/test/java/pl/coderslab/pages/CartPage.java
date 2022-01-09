@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class CartPage {
 
-    WebElement proceedToCheckout;
+    private final WebElement proceedToCheckout;
 
     public CartPage(WebDriver driver) {
         this.proceedToCheckout = driver.findElement(By.cssSelector("a.btn"));

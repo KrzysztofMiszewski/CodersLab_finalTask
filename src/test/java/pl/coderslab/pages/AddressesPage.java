@@ -1,18 +1,16 @@
 package pl.coderslab.pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 
 import java.util.concurrent.TimeUnit;
 
 public class AddressesPage {
 
-    WebElement aliasText;
-    WebElement addressBody;
-    WebElement deleteButton;
+    private final WebElement aliasText;
+    private final WebElement addressBody;
+    private final WebElement deleteButton;
 
     public AddressesPage(WebDriver driver) {
 

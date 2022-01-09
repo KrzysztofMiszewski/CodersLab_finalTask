@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class OrderPage2 {
 
-    WebElement shippingContinue;
+    private final WebElement shippingContinue;
 
     public OrderPage2(WebDriver driver) {
         this.shippingContinue = driver.findElement(By.cssSelector(("button.continue:nth-child(2)")));

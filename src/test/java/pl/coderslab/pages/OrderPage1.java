@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class OrderPage1 {
 
-    WebElement addressContinue;
+    private final WebElement addressContinue;
 
     public OrderPage1(WebDriver driver) {
         this.addressContinue = driver.findElement(By.cssSelector(".btn"));

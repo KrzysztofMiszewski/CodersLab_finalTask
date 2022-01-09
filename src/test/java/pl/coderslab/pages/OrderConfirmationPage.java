@@ -6,9 +6,9 @@ import org.openqa.selenium.WebElement;
 
 public class OrderConfirmationPage {
 
-    private WebElement reference;
-    private WebElement totalPrice;
-    private WebElement myAccount;
+    private final WebElement reference;
+    private final WebElement totalPrice;
+    private final WebElement myAccount;
 
     public OrderConfirmationPage(WebDriver driver) {
         this.reference = driver.findElement(By.cssSelector("#order-details > ul > li:nth-child(1)"));

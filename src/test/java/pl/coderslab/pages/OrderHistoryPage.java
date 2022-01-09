@@ -1,17 +1,15 @@
 package pl.coderslab.pages;
 
-import io.cucumber.java.eo.Se;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.util.List;
 
 public class OrderHistoryPage {
 
-    WebElement orderReference;
-    WebElement totalPrice;
-    WebElement status;
+    private final WebElement orderReference;
+    private final WebElement totalPrice;
+    private final WebElement status;
 
     public OrderHistoryPage(WebDriver driver) {
 

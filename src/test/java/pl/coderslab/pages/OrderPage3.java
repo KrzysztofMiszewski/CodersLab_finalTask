@@ -6,9 +6,9 @@ import org.openqa.selenium.WebElement;
 
 public class OrderPage3 {
 
-    WebElement pbcBtn;
-    WebElement termsBtn;
-    WebElement orderBtn;
+    private final WebElement pbcBtn;
+    private final WebElement termsBtn;
+    private final WebElement orderBtn;
 
     public OrderPage3(WebDriver driver) {
         this.pbcBtn = driver.findElement(By.cssSelector("#payment-option-1"));
