@@ -5,6 +5,6 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/cucumber/features/", plugin = {"pretty", "html:out.html"},tags = "@CheckoutTest")
-public class CheckoutTest {
+@CucumberOptions(features = "src/test/resources/cucumber/features/", plugin = {"pretty", "html:out.html"},tags = "@DiscountTest")
+public class DiscountTest {
 }

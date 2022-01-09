@@ -28,7 +28,7 @@ public class NewAddressPage {
         this.saveButton = driver.findElement(By.cssSelector("button.btn"));
     }
 
-    public void AddAddress(String alias, String address, String postal, String city, String country, String phone) {
+    public void addAddress(String alias, String address, String postal, String city, String country, String phone) {
 
         aliasField.sendKeys(alias);
         addressField.sendKeys(address);
@@ -39,7 +39,7 @@ public class NewAddressPage {
 
     }
 
-    public void Save(){
+    public void save(){
         saveButton.click();
     }
 

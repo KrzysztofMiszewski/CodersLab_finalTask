@@ -18,7 +18,7 @@ public class SignInPage {
         this.signIn = driver.findElement(By.id("submit-login"));
     }
 
-    public void LogIn(String email, String password) {
+    public void logIn(String email, String password) {
         emailField.sendKeys(email);
         passwordField.sendKeys(password);
         signIn.click();

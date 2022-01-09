@@ -18,11 +18,11 @@ public class IndexPage {
 
     }
 
-    public void ClickSignIn(){
+    public void clickSignIn(){
         signIn.click();
     }
 
-    public void ClickProduct() {
+    public void clickProduct() {
         product.click();
     }
 
